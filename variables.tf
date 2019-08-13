@@ -228,3 +228,9 @@ variable "node_to_node_encryption_enabled" {
   default     = false
   description = "Whether to enable node-to-node encryption"
 }
+
+variable "domain_name" {
+  type        = string
+  description = "use when null lable is too long"
+  default     = ""
+}
